@@ -1,15 +1,20 @@
+html{
+    margin: 0;
+}
+body{
+    margin:0
+}
 header{
     background-color: #1f2937;
     width: 100vw;
-
-
+    padding: 0%;
+    margin-top: 0;
+    line-height: 1;
 }
 .container{
     display: flex;
-    background-color: #1f2937;
     width: 100vw;
     justify-content: space-between;
-    gap: 0%;
 
 }
 
@@ -34,15 +39,14 @@ header{
 .hero-container{
     display: flex;
     width: 100vw;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 
 }
 .hero2{
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    justify-content: center;
+    max-width: 400px;
     align-items: center;
     padding: 100px;
     
@@ -59,8 +63,16 @@ header{
     
 }
 .img{
-    width: 400px;
-    height:200px;
+    width: 500px;
+    height:300px;
     justify-content: center;
-    padding-top: 130px;
+    padding-top: 100x;
+}
+.button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    width: 90px;
+    padding: 6px;
+    border-color: #3882f6;
 }
