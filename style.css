@@ -76,3 +76,30 @@ header{
     padding: 6px;
     border-color: #3882f6;
 }
+.info-text{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align:center;
+}
+/* After header*/
+.info-header{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: bolder;
+    text-align: center;
+}
+.main-container{
+    padding:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.info-img{
+    width: 130px;
+    height: 170px;
+    border-radius: 20px;
+}
+.container-width{
+    max-width: 150px;
+}
